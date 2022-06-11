@@ -1,0 +1,33 @@
+h1{
+    color: rgb(255, 255, 255);
+}
+.table.mt-3.tableprod{
+    background-color: white;    
+}
+
+.form-label{
+    color: white;
+}
+.contenido{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.elemt{
+    margin: 250px 50px ;
+}
+
+
+@media screen and (max-width:768px){
+    .btn.btn-danger.btn-sm.ms-2 {
+            position: relative;
+            left: -7px;
+            top: 5px;    
+      }    
+      .elemt{
+        margin: 250px 0px ;
+    }
+      
+    }
